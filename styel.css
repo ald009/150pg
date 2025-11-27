@@ -17,10 +17,11 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings:"width" 100;
   margin: 0px;
     display: flex;
-  align-items: center;
+    align-items: center;
+    flex-direction: column;
   justify-content: center;
   font-family: 'DynaPuff', sans-serif;
   background: #f5f5f5;
