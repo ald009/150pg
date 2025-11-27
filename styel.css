@@ -72,4 +72,6 @@ footer  { grid-area: footer; background: rgb(170, 170, 170); padding: 25px; text
 .emlekfasz{
   color: rgb(231, 94, 94);
   background-color: rgba(207, 190, 37, 0.61);
+  border: 30px;
+  border-radius: 10px;
 }
