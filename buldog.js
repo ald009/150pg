@@ -35,13 +35,8 @@ function nextSlide() {
     slides[current].classList.add('active');
 }
 
-// optional: previous slide
-function prevSlide() {
-    if (!slides.length) return;
-    slides[current].classList.remove('active');
-    current = (current - 1 + slides.length) % slides.length;
-    slides[current].classList.add('active');
-}
+
+
 
 // automatic slideshow starter
 function slide() {
@@ -53,7 +48,7 @@ function slide() {
 
 // expose manual controls for inline onclick
 window.nextSlide = nextSlide;
-window.prevSlide = prevSlide;
 window.slide = slide; // optional: keep original name
 
 document.addEventListener('DOMContentLoaded', initSlides);
+document.addEventListener('DOMContentLoaded', slide);
