@@ -32,6 +32,10 @@ body{
 .slideshow-wrap {
   width: 90%;
   max-width: 900px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+    display: flex;
+  margin: auto;
 }
 
 
