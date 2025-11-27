@@ -68,3 +68,8 @@ header  { grid-area: header; background: rgb(170, 170, 170); padding: 30px; text
 main    { grid-area: main; background-color: rgb(134, 134, 230); }
 
 footer  { grid-area: footer; background: rgb(170, 170, 170); padding: 25px; text-align:center; font-size:1.3rem; }
+
+.emlekfasz{
+  color: rgb(231, 94, 94);
+  background-color: rgba(207, 190, 37, 0.61);
+}
