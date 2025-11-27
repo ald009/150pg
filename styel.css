@@ -20,11 +20,12 @@ body{
   font-variation-settings:"width" 100;
   margin: 0px;
     display: flex;
-    align-items: center;
+    
     flex-direction: column;
-  justify-content: center;
+
   font-family: 'DynaPuff', sans-serif;
   background: #f5f5f5;
+  background-color: red;
 
 }
 
@@ -43,6 +44,10 @@ body{
   
 }
 
+.slideshow:hover{
+    cursor: pointer;
+}
+
 
 .slide {
   width: 100%;
@@ -58,8 +63,8 @@ body{
 html, body { height: 100%; margin: 0; }
 
 
-header  { grid-area: header; background: rgb(170, 170, 170); padding: 30px; border: 10px solid gold; border-radius: 20px; text-align:center; }
+header  { grid-area: header; background: rgb(170, 170, 170); padding: 30px; text-align:center; }
 
 main    { grid-area: main; background-color: rgb(134, 134, 230); }
 
-footer  { grid-area: footer; background: rgb(170, 170, 170); padding: 25px; border: 8px solid lime; text-align:center; font-size:1.3rem; }
+footer  { grid-area: footer; background: rgb(170, 170, 170); padding: 25px; text-align:center; font-size:1.3rem; }
