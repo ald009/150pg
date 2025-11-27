@@ -25,8 +25,8 @@ body{
 
 
 
-.header  { grid-area: header; background: rgba(0,0,0,0.7); padding: 30px; border: 10px solid gold; border-radius: 20px; text-align:center; }
+header  { grid-area: header; background: rgba(0,0,0,0.7); padding: 30px; border: 10px solid gold; border-radius: 20px; text-align:center; }
 
-.main    { grid-area: main; background-color: blue; }
+main    { grid-area: main; background-color: blue; }
 
-.footer  { grid-area: footer; background: black; padding: 25px; border: 8px solid lime; text-align:center; font-size:1.3rem; }
+footer  { grid-area: footer; background: black; padding: 25px; border: 8px solid lime; text-align:center; font-size:1.3rem; }
