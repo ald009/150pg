@@ -76,3 +76,11 @@ a {
     color: #946737;
     text-decoration: none;
 }
+
+.fejezet-bev{
+    text-indent: 50px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    max-width: 80%;
+}
