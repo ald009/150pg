@@ -28,12 +28,13 @@ body{
 }
 
 .slideshow-wrap {
-  width: 90%;
+  width: 60% ;
   max-width: 900px;
   flex-wrap: nowrap;
   flex-direction: row;
-    display: flex;
-  margin: auto;
+  display: flex;
+  margin: 2%;
+  float: left;
 }
 
 
@@ -41,14 +42,38 @@ body{
     margin: 40px;
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 14px;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.72);
   
   
 }
 
-.slideshow:hover{
+.slideshow h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index:1;
+    filter: opacity(0%);
+}
+
+
+@keyframes epilepsy {
+    0% { filter: opacity(0%); }
+    50% { filter: opacity(100%); }
+    100% { filter: opacity(0%); }
+  
+}
+
+.slideshow:hover h1{
+  
     cursor: pointer;
+    animation: epilepsy 0.2s infinite cubic-bezier(0.075, 0.82, 0.165, 1) ;
+    animation-delay: 1s;
 }
 
 
@@ -66,7 +91,18 @@ body{
 html, body { height: 100%; margin: 0; }
 
 
-header  { grid-area: header; background: #8C7051; padding: 30px; text-align:center; color:white;min-height: 100px;font-size: 25px; }
+header  { grid-area: header; background: #8C7051; padding: 30px; text-align:center; color:white;min-height: 120px;font-size: 25px; }
+
+header h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+header p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
 
 main    { grid-area: main; background-color: #F4D8CD; }
 
@@ -77,10 +113,40 @@ a {
     text-decoration: none;
 }
 
+.bevezeto{
+    
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    max-width: 80%;
+} 
+
+.bevezeto h1{
+    
+    margin-bottom: 30px;
+}
+
+.bevezeto h4{
+    margin-top: 50px;
+    text-align: right;
+}
 .fejezet-bev{
     text-indent: 50px;
     margin: auto;
     padding: 15px;
     text-align: justify;
     max-width: 80%;
+}
+
+@media (max-width: 900px) {
+    .slideshow-wrap {
+      width: 100%;
+      margin: auto;
+      float: none;
+    }
+
+    .slideshow h1{
+        font-size: 3rem;
+    }
+
 }
