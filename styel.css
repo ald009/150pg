@@ -104,7 +104,8 @@ header p{
     margin-top: 10px;
 }
 
-main    { grid-area: main; background-color: #F4D8CD; }
+main    { grid-area: main; background-color: #F4D8CD;}
+
 
 footer  { grid-area: footer; background: #3A2E39; padding: 25px; text-align:center; font-size:1.3rem; color:white; }
 
@@ -131,10 +132,28 @@ a {
     text-align: right;
 }
 .fejezet-bev{
+background-image: url(img/peto.png);
+background-size: 60% auto; 
+background-repeat: no-repeat; 
+background-position: right top;
+
     text-indent: 50px;
     margin: auto;
-    padding: 15px;
     text-align: justify;
+    
+
+  
+}
+
+.fejezet-bev h1{
+  margin: auto;
+    max-width: 80%;
+margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.fejezet-bev p{
+  margin: auto;
     max-width: 80%;
 }
 
