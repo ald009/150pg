@@ -24,6 +24,7 @@ body{
     font-family: 'DynaPuff', sans-serif;
     background: #f5f5f5;
     background-color: #F4D8CD;
+    transition: ease-in-out 0.2s;
 
 }
 
@@ -127,7 +128,7 @@ a {
     margin-bottom: 30px;
 }
 
-.bevezeto h4{
+.bevezeto h3{
     margin-top: 50px;
     text-align: right;
 }
@@ -148,13 +149,16 @@ background-position: right top;
 .fejezet-bev h1{
   margin: auto;
     max-width: 80%;
-margin-top: 4%;
     margin-bottom: 2%;
+    font-size: 2rem;
+   
 }
 
 .fejezet-bev p{
   margin: auto;
     max-width: 80%;
+    line-height: 24px;
+    margin-bottom: 4%;
 }
 
 @media (max-width: 900px) {
@@ -166,6 +170,20 @@ margin-top: 4%;
 
     .slideshow h1{
         font-size: 3rem;
+    }
+
+    .fejezet-bev{
+        background-size: 100% auto; 
+  
+    }
+    .fejezet-bev h1{
+        font-size: 1.5rem;
+        max-width: 95%;
+        text-align: center;
+    }
+    .fejezet-bev p{
+      
+        max-width: 90%;
     }
 
 }
