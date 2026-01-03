@@ -52,3 +52,17 @@ window.slide = slide; // optional: keep original name
 
 document.addEventListener('DOMContentLoaded', initSlides);
 document.addEventListener('DOMContentLoaded', slide);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const body = document.body;
+    const aElements = document.querySelectorAll('.txtutan div');
+
+    aElements.forEach(div => {
+        div.addEventListener('click', () => {
+            body.classList.add('active');
+            setTimeout(() => {
+                body.classList.remove('active');
+            }, 300);  // Remove after 1 second
+        });
+    });
+});

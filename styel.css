@@ -28,6 +28,52 @@ body{
 
 }
 
+.txtutan{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    gap: 10px;
+    
+}
+.txtutan div{
+    text-align: center;
+    margin: 10px;
+    padding: 15px 25px;
+    background-color: #8C7051;
+    border-radius: 8px;
+}
+
+
+.txtutan a{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+.txtutan div:hover {
+    background-color: #946737;
+    cursor: pointer;
+}
+
+:root{
+    --vicc: 0%;
+}
+
+body.active {
+    --vicc: 80%;
+}
+
+.vicc{
+    position:fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--vicc);
+}
+
 .slideshow-wrap {
   width: 60% ;
   max-width: 900px;
