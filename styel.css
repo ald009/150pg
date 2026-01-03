@@ -102,7 +102,7 @@ header h3{
 
 header p{
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 main    { grid-area: main; background-color: #F4D8CD;}
@@ -184,6 +184,9 @@ background-position: right top;
     .fejezet-bev p{
       
         max-width: 90%;
+    }
+    header p{
+        font-size: 1rem;
     }
 
 }
