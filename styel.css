@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     font-family: 'DynaPuff', sans-serif;
     background: #f5f5f5;
-    background-color: #F4D8CD;
+    background-color:#3A2E39;
     transition: ease-in-out 0.2s;
 
 }
@@ -344,7 +344,6 @@ background-position: right top;
   font-size: 1.3rem;
   font-weight: 500px;
   padding: 3px 20px;
-  border-radius: 20px;
   border: 2px solid transparent;
   transition: all 0.7 ease;
   white-space: nowrap;
@@ -357,7 +356,7 @@ background-position: right top;
   font-size: 1.3rem;
   font-weight: 500;
   padding: 3px 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid transparent;
   transition: all 0.7 ease;
   white-space: nowrap;
@@ -367,7 +366,7 @@ background-position: right top;
 
 .navbar-container  .navbar-menu li a:hover{
   color: #162530;
-  background: rgba(188, 212, 229,0.8);
+  background: rgb(180, 155, 178);
   border: 2px solid #fff;
 }
 
