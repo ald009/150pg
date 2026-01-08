@@ -235,6 +235,7 @@ background-position: right top;
         font-size: 1rem;
     }
 
+
 }
 
 .navbar{
@@ -349,4 +350,14 @@ background-position: right top;
 .navbar-toggle{
   display: block;
   z-index: 999;
+
+    body.active {
+    --vicc: 100%;
+    }
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+
 }
