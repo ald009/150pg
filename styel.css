@@ -154,11 +154,35 @@ header p{
 main    { grid-area: main; background-color: #F4D8CD;}
 
 
-footer  { grid-area: footer; background: #3A2E39; padding: 25px; text-align:center; font-size:1.3rem; color:white; }
+footer  { grid-area: footer; background: #3A2E39; padding: 25px; text-align:center; font-size:1.3rem; color:white; display: flex;justify-content: center;flex-direction: column; gap: 10px;}
 
 a {
     color: #946737;
     text-decoration: none;
+}
+
+a:hover {
+    color: #bb9265;
+}
+
+footer a{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+footer table{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-30%);
+}
+
+footer div{
+    margin: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bevezeto{
@@ -237,6 +261,17 @@ background-position: right top;
 
     body.active {
     --vicc: 100%;
+    }
+
+
+    footer a{
+        font-size: 1rem;
+    }
+
+    footer div{
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 100%;
     }
 
 }
