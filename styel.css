@@ -259,6 +259,45 @@ background-position: right top;
         font-size: 1rem;
     }
 
+     body.active {
+    --vicc: 100%;
+    }
+
+
+    footer a{
+        font-size: 1rem;
+    }
+
+    footer div{
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .navbar {
+    backdrop-filter: none;
+  }
+
+  .navbar-container .navbar-menu{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.7rem;
+    position: absolute;
+    height: 100vh;
+    width: 25px;
+    top: 0;
+    right: 0;
+    padding: 5rem 1.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+.navbar-toggle{
+  display: block;
+  z-index: 999;
+
+}
+
 
 }
 
@@ -351,46 +390,6 @@ background-position: right top;
 
 }
 
-@media (max-width: 880px){
-  .navbar {
-    backdrop-filter: none;
-  }
-
-  .navbar-container .navbar-menu{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.7rem;
-    position: absolute;
-    height: 100vh;
-    width: 25px;
-    top: 0;
-    right: 0;
-    padding: 5rem 1.5rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-  }
-}
-
-.navbar-toggle{
-  display: block;
-  z-index: 999;
-
-    body.active {
-    --vicc: 100%;
-    }
-
-
-    footer a{
-        font-size: 1rem;
-    }
-
-    footer div{
-        flex-wrap: wrap;
-        margin: 0px;
-        width: 100%;
-    }
-
-}
 
 ::-webkit-scrollbar{
     display: none;
