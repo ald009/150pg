@@ -331,6 +331,7 @@ background-position: right top;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+  
 
 }
 
@@ -393,4 +394,28 @@ background-position: right top;
 ::-webkit-scrollbar{
     display: none;
 
+}
+/*
+.navbar-menu li.tanitokepzo a{
+  background: linear-gradient(to bottom, #311d1f , #fcf5a8 );
+  color: white;
+}
+
+#testnevel{
+  background: linear-gradient(to bottom, #1f3864 50%, #bbd5ed 50%);
+}
+
+#petofigimi{
+  background: linear-gradient(to bottom, #636466 50%, #dcddde 50%);
+}
+
+#Mozaik{
+  background: linear-gradient(to bottom, #8a0054 50%, #E2d0d9 50%);
+}
+
+#Szent{
+  background: linear-gradient(to bottom, #6d4e27 50%, #f3dbaf 50%);
+}*/
+.logo150{
+  width: 40%;
 }
